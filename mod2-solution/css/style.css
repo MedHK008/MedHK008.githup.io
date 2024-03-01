@@ -1,0 +1,73 @@
+/* Baseline styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.menu-section1, .menu-section2, .menu-section3 {
+    
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.menu-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    font-size: 1.25em;
+}
+
+p {
+    margin-top: 2rem;
+}
+
+.menu-section1{
+    flex: 1 0 12rem;
+}
+
+.menu-section2{
+    flex: 1 0 12rem;
+}
+
+.menu-section3{
+    flex: 1 0 12rem;
+}
+
+#title1{
+    font-size: 1.5em;
+    color: aqua;
+    background: red;
+}
+
+#title2{
+    font-size: 1.5em;
+    color: #e0e0e0;
+    background: blue;
+}
+
+#title3{
+    font-size: 1.5em;
+    background: green;
+}
